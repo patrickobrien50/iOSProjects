@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4340941E777DB1002FD4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4340931E777DB1002FD4D7 /* AppDelegate.swift */; };
+		6C4340961E777DB1002FD4D7 /* MabLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4340951E777DB1002FD4D7 /* MabLibViewController.swift */; };
+		6C4340991E777DB1002FD4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4340971E777DB1002FD4D7 /* Main.storyboard */; };
+		6C43409B1E777DB1002FD4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C43409A1E777DB1002FD4D7 /* Assets.xcassets */; };
+		6C43409E1E777DB1002FD4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C43409C1E777DB1002FD4D7 /* LaunchScreen.storyboard */; };
+		6C4340A91E777DB1002FD4D7 /* Mad_LibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4340A81E777DB1002FD4D7 /* Mad_LibsTests.swift */; };
+		6C4340B41E777DB1002FD4D7 /* Mad_LibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4340B31E777DB1002FD4D7 /* Mad_LibsUITests.swift */; };
+		6C4340C21E77959E002FD4D7 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4340C11E77959E002FD4D7 /* WordsViewController.swift */; };
+		6C4340C41E7795C2002FD4D7 /* MadLibDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4340C31E7795C2002FD4D7 /* MadLibDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C4340A51E777DB1002FD4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4340881E777DB1002FD4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C43408F1E777DB1002FD4D7;
+			remoteInfo = "Mad Libs";
+		};
+		6C4340B01E777DB1002FD4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4340881E777DB1002FD4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C43408F1E777DB1002FD4D7;
+			remoteInfo = "Mad Libs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C4340901E777DB1002FD4D7 /* Mad Libs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mad Libs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4340931E777DB1002FD4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C4340951E777DB1002FD4D7 /* MabLibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MabLibViewController.swift; sourceTree = "<group>"; };
+		6C4340981E777DB1002FD4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C43409A1E777DB1002FD4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C43409D1E777DB1002FD4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C43409F1E777DB1002FD4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4340A41E777DB1002FD4D7 /* Mad LibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mad LibsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4340A81E777DB1002FD4D7 /* Mad_LibsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mad_LibsTests.swift; sourceTree = "<group>"; };
+		6C4340AA1E777DB1002FD4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4340AF1E777DB1002FD4D7 /* Mad LibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mad LibsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4340B31E777DB1002FD4D7 /* Mad_LibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mad_LibsUITests.swift; sourceTree = "<group>"; };
+		6C4340B51E777DB1002FD4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4340C11E77959E002FD4D7 /* WordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
+		6C4340C31E7795C2002FD4D7 /* MadLibDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLibDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C43408D1E777DB1002FD4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4340A11E777DB1002FD4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4340AC1E777DB1002FD4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4340871E777DB1002FD4D7 = {
+			isa = PBXGroup;
+			children = (
+				6C4340921E777DB1002FD4D7 /* Mad Libs */,
+				6C4340A71E777DB1002FD4D7 /* Mad LibsTests */,
+				6C4340B21E777DB1002FD4D7 /* Mad LibsUITests */,
+				6C4340911E777DB1002FD4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C4340911E777DB1002FD4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C4340901E777DB1002FD4D7 /* Mad Libs.app */,
+				6C4340A41E777DB1002FD4D7 /* Mad LibsTests.xctest */,
+				6C4340AF1E777DB1002FD4D7 /* Mad LibsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4340921E777DB1002FD4D7 /* Mad Libs */ = {
+			isa = PBXGroup;
+			children = (
+				6C4340931E777DB1002FD4D7 /* AppDelegate.swift */,
+				6C4340951E777DB1002FD4D7 /* MabLibViewController.swift */,
+				6C4340971E777DB1002FD4D7 /* Main.storyboard */,
+				6C4340C31E7795C2002FD4D7 /* MadLibDelegate.swift */,
+				6C4340C11E77959E002FD4D7 /* WordsViewController.swift */,
+				6C43409A1E777DB1002FD4D7 /* Assets.xcassets */,
+				6C43409C1E777DB1002FD4D7 /* LaunchScreen.storyboard */,
+				6C43409F1E777DB1002FD4D7 /* Info.plist */,
+			);
+			path = "Mad Libs";
+			sourceTree = "<group>";
+		};
+		6C4340A71E777DB1002FD4D7 /* Mad LibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4340A81E777DB1002FD4D7 /* Mad_LibsTests.swift */,
+				6C4340AA1E777DB1002FD4D7 /* Info.plist */,
+			);
+			path = "Mad LibsTests";
+			sourceTree = "<group>";
+		};
+		6C4340B21E777DB1002FD4D7 /* Mad LibsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4340B31E777DB1002FD4D7 /* Mad_LibsUITests.swift */,
+				6C4340B51E777DB1002FD4D7 /* Info.plist */,
+			);
+			path = "Mad LibsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C43408F1E777DB1002FD4D7 /* Mad Libs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4340B81E777DB1002FD4D7 /* Build configuration list for PBXNativeTarget "Mad Libs" */;
+			buildPhases = (
+				6C43408C1E777DB1002FD4D7 /* Sources */,
+				6C43408D1E777DB1002FD4D7 /* Frameworks */,
+				6C43408E1E777DB1002FD4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mad Libs";
+			productName = "Mad Libs";
+			productReference = 6C4340901E777DB1002FD4D7 /* Mad Libs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C4340A31E777DB1002FD4D7 /* Mad LibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4340BB1E777DB1002FD4D7 /* Build configuration list for PBXNativeTarget "Mad LibsTests" */;
+			buildPhases = (
+				6C4340A01E777DB1002FD4D7 /* Sources */,
+				6C4340A11E777DB1002FD4D7 /* Frameworks */,
+				6C4340A21E777DB1002FD4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4340A61E777DB1002FD4D7 /* PBXTargetDependency */,
+			);
+			name = "Mad LibsTests";
+			productName = "Mad LibsTests";
+			productReference = 6C4340A41E777DB1002FD4D7 /* Mad LibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C4340AE1E777DB1002FD4D7 /* Mad LibsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4340BE1E777DB1002FD4D7 /* Build configuration list for PBXNativeTarget "Mad LibsUITests" */;
+			buildPhases = (
+				6C4340AB1E777DB1002FD4D7 /* Sources */,
+				6C4340AC1E777DB1002FD4D7 /* Frameworks */,
+				6C4340AD1E777DB1002FD4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4340B11E777DB1002FD4D7 /* PBXTargetDependency */,
+			);
+			name = "Mad LibsUITests";
+			productName = "Mad LibsUITests";
+			productReference = 6C4340AF1E777DB1002FD4D7 /* Mad LibsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C4340881E777DB1002FD4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Patrick O'Brien";
+				TargetAttributes = {
+					6C43408F1E777DB1002FD4D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						ProvisioningStyle = Automatic;
+					};
+					6C4340A31E777DB1002FD4D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C43408F1E777DB1002FD4D7;
+					};
+					6C4340AE1E777DB1002FD4D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C43408F1E777DB1002FD4D7;
+					};
+				};
+			};
+			buildConfigurationList = 6C43408B1E777DB1002FD4D7 /* Build configuration list for PBXProject "Mad Libs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C4340871E777DB1002FD4D7;
+			productRefGroup = 6C4340911E777DB1002FD4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C43408F1E777DB1002FD4D7 /* Mad Libs */,
+				6C4340A31E777DB1002FD4D7 /* Mad LibsTests */,
+				6C4340AE1E777DB1002FD4D7 /* Mad LibsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C43408E1E777DB1002FD4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C43409E1E777DB1002FD4D7 /* LaunchScreen.storyboard in Resources */,
+				6C43409B1E777DB1002FD4D7 /* Assets.xcassets in Resources */,
+				6C4340991E777DB1002FD4D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4340A21E777DB1002FD4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4340AD1E777DB1002FD4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C43408C1E777DB1002FD4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4340C21E77959E002FD4D7 /* WordsViewController.swift in Sources */,
+				6C4340961E777DB1002FD4D7 /* MabLibViewController.swift in Sources */,
+				6C4340941E777DB1002FD4D7 /* AppDelegate.swift in Sources */,
+				6C4340C41E7795C2002FD4D7 /* MadLibDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4340A01E777DB1002FD4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4340A91E777DB1002FD4D7 /* Mad_LibsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4340AB1E777DB1002FD4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4340B41E777DB1002FD4D7 /* Mad_LibsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C4340A61E777DB1002FD4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C43408F1E777DB1002FD4D7 /* Mad Libs */;
+			targetProxy = 6C4340A51E777DB1002FD4D7 /* PBXContainerItemProxy */;
+		};
+		6C4340B11E777DB1002FD4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C43408F1E777DB1002FD4D7 /* Mad Libs */;
+			targetProxy = 6C4340B01E777DB1002FD4D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C4340971E777DB1002FD4D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C4340981E777DB1002FD4D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C43409C1E777DB1002FD4D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C43409D1E777DB1002FD4D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C4340B61E777DB1002FD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C4340B71E777DB1002FD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C4340B91E777DB1002FD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = "Mad Libs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elysia.Mad-Libs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C4340BA1E777DB1002FD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = "Mad Libs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elysia.Mad-Libs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C4340BC1E777DB1002FD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = "Mad LibsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elysia.Mad-LibsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mad Libs.app/Mad Libs";
+			};
+			name = Debug;
+		};
+		6C4340BD1E777DB1002FD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = "Mad LibsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elysia.Mad-LibsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mad Libs.app/Mad Libs";
+			};
+			name = Release;
+		};
+		6C4340BF1E777DB1002FD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = "Mad LibsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elysia.Mad-LibsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mad Libs";
+			};
+			name = Debug;
+		};
+		6C4340C01E777DB1002FD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = "Mad LibsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elysia.Mad-LibsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mad Libs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C43408B1E777DB1002FD4D7 /* Build configuration list for PBXProject "Mad Libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4340B61E777DB1002FD4D7 /* Debug */,
+				6C4340B71E777DB1002FD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4340B81E777DB1002FD4D7 /* Build configuration list for PBXNativeTarget "Mad Libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4340B91E777DB1002FD4D7 /* Debug */,
+				6C4340BA1E777DB1002FD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C4340BB1E777DB1002FD4D7 /* Build configuration list for PBXNativeTarget "Mad LibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4340BC1E777DB1002FD4D7 /* Debug */,
+				6C4340BD1E777DB1002FD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C4340BE1E777DB1002FD4D7 /* Build configuration list for PBXNativeTarget "Mad LibsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4340BF1E777DB1002FD4D7 /* Debug */,
+				6C4340C01E777DB1002FD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C4340881E777DB1002FD4D7 /* Project object */;
+}

@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CD426551EAEB86B000672C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD426541EAEB86B000672C7 /* AppDelegate.swift */; };
+		6CD426571EAEB86B000672C7 /* ToBeastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD426561EAEB86B000672C7 /* ToBeastTableViewController.swift */; };
+		6CD4265A1EAEB86B000672C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD426581EAEB86B000672C7 /* Main.storyboard */; };
+		6CD4265D1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4265B1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodeld */; };
+		6CD4265F1EAEB86B000672C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD4265E1EAEB86B000672C7 /* Assets.xcassets */; };
+		6CD426621EAEB86B000672C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD426601EAEB86B000672C7 /* LaunchScreen.storyboard */; };
+		6CD4266D1EAEB86B000672C7 /* iOSBeltRetakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4266C1EAEB86B000672C7 /* iOSBeltRetakeTests.swift */; };
+		6CD426781EAEB86B000672C7 /* iOSBeltRetakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD426771EAEB86B000672C7 /* iOSBeltRetakeUITests.swift */; };
+		6CD426861EB15620000672C7 /* CustomBeastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD426851EB15620000672C7 /* CustomBeastCell.swift */; };
+		6CD426881EB1568A000672C7 /* BeastListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD426871EB1568A000672C7 /* BeastListDelegate.swift */; };
+		6CD4268A1EB156C8000672C7 /* BeastedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD426891EB156C8000672C7 /* BeastedTableViewController.swift */; };
+		6CF235DF1EB1593A00098171 /* CustomBeastCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF235DE1EB1593A00098171 /* CustomBeastCellDelegate.swift */; };
+		6CF235E11EB15AE900098171 /* JustBeastItTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF235E01EB15AE900098171 /* JustBeastItTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CD426691EAEB86B000672C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CD426491EAEB86B000672C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD426501EAEB86B000672C7;
+			remoteInfo = iOSBeltRetake;
+		};
+		6CD426741EAEB86B000672C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CD426491EAEB86B000672C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD426501EAEB86B000672C7;
+			remoteInfo = iOSBeltRetake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CD426511EAEB86B000672C7 /* iOSBeltRetake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBeltRetake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD426541EAEB86B000672C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CD426561EAEB86B000672C7 /* ToBeastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBeastTableViewController.swift; sourceTree = "<group>"; };
+		6CD426591EAEB86B000672C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CD4265C1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSBeltRetake.xcdatamodel; sourceTree = "<group>"; };
+		6CD4265E1EAEB86B000672C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD426611EAEB86B000672C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CD426631EAEB86B000672C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD426681EAEB86B000672C7 /* iOSBeltRetakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBeltRetakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD4266C1EAEB86B000672C7 /* iOSBeltRetakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSBeltRetakeTests.swift; sourceTree = "<group>"; };
+		6CD4266E1EAEB86B000672C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD426731EAEB86B000672C7 /* iOSBeltRetakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBeltRetakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD426771EAEB86B000672C7 /* iOSBeltRetakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSBeltRetakeUITests.swift; sourceTree = "<group>"; };
+		6CD426791EAEB86B000672C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD426851EB15620000672C7 /* CustomBeastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBeastCell.swift; sourceTree = "<group>"; };
+		6CD426871EB1568A000672C7 /* BeastListDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastListDelegate.swift; sourceTree = "<group>"; };
+		6CD426891EB156C8000672C7 /* BeastedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastedTableViewController.swift; sourceTree = "<group>"; };
+		6CF235DE1EB1593A00098171 /* CustomBeastCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBeastCellDelegate.swift; sourceTree = "<group>"; };
+		6CF235E01EB15AE900098171 /* JustBeastItTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustBeastItTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CD4264E1EAEB86B000672C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD426651EAEB86B000672C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD426701EAEB86B000672C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CD426481EAEB86B000672C7 = {
+			isa = PBXGroup;
+			children = (
+				6CD426531EAEB86B000672C7 /* iOSBeltRetake */,
+				6CD4266B1EAEB86B000672C7 /* iOSBeltRetakeTests */,
+				6CD426761EAEB86B000672C7 /* iOSBeltRetakeUITests */,
+				6CD426521EAEB86B000672C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CD426521EAEB86B000672C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD426511EAEB86B000672C7 /* iOSBeltRetake.app */,
+				6CD426681EAEB86B000672C7 /* iOSBeltRetakeTests.xctest */,
+				6CD426731EAEB86B000672C7 /* iOSBeltRetakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD426531EAEB86B000672C7 /* iOSBeltRetake */ = {
+			isa = PBXGroup;
+			children = (
+				6CD426541EAEB86B000672C7 /* AppDelegate.swift */,
+				6CD426561EAEB86B000672C7 /* ToBeastTableViewController.swift */,
+				6CD426581EAEB86B000672C7 /* Main.storyboard */,
+				6CF235DE1EB1593A00098171 /* CustomBeastCellDelegate.swift */,
+				6CD426891EB156C8000672C7 /* BeastedTableViewController.swift */,
+				6CD426851EB15620000672C7 /* CustomBeastCell.swift */,
+				6CD426871EB1568A000672C7 /* BeastListDelegate.swift */,
+				6CF235E01EB15AE900098171 /* JustBeastItTableViewController.swift */,
+				6CD4265E1EAEB86B000672C7 /* Assets.xcassets */,
+				6CD426601EAEB86B000672C7 /* LaunchScreen.storyboard */,
+				6CD426631EAEB86B000672C7 /* Info.plist */,
+				6CD4265B1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodeld */,
+			);
+			path = iOSBeltRetake;
+			sourceTree = "<group>";
+		};
+		6CD4266B1EAEB86B000672C7 /* iOSBeltRetakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CD4266C1EAEB86B000672C7 /* iOSBeltRetakeTests.swift */,
+				6CD4266E1EAEB86B000672C7 /* Info.plist */,
+			);
+			path = iOSBeltRetakeTests;
+			sourceTree = "<group>";
+		};
+		6CD426761EAEB86B000672C7 /* iOSBeltRetakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CD426771EAEB86B000672C7 /* iOSBeltRetakeUITests.swift */,
+				6CD426791EAEB86B000672C7 /* Info.plist */,
+			);
+			path = iOSBeltRetakeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CD426501EAEB86B000672C7 /* iOSBeltRetake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD4267C1EAEB86B000672C7 /* Build configuration list for PBXNativeTarget "iOSBeltRetake" */;
+			buildPhases = (
+				6CD4264D1EAEB86B000672C7 /* Sources */,
+				6CD4264E1EAEB86B000672C7 /* Frameworks */,
+				6CD4264F1EAEB86B000672C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSBeltRetake;
+			productName = iOSBeltRetake;
+			productReference = 6CD426511EAEB86B000672C7 /* iOSBeltRetake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CD426671EAEB86B000672C7 /* iOSBeltRetakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD4267F1EAEB86B000672C7 /* Build configuration list for PBXNativeTarget "iOSBeltRetakeTests" */;
+			buildPhases = (
+				6CD426641EAEB86B000672C7 /* Sources */,
+				6CD426651EAEB86B000672C7 /* Frameworks */,
+				6CD426661EAEB86B000672C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD4266A1EAEB86B000672C7 /* PBXTargetDependency */,
+			);
+			name = iOSBeltRetakeTests;
+			productName = iOSBeltRetakeTests;
+			productReference = 6CD426681EAEB86B000672C7 /* iOSBeltRetakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CD426721EAEB86B000672C7 /* iOSBeltRetakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD426821EAEB86B000672C7 /* Build configuration list for PBXNativeTarget "iOSBeltRetakeUITests" */;
+			buildPhases = (
+				6CD4266F1EAEB86B000672C7 /* Sources */,
+				6CD426701EAEB86B000672C7 /* Frameworks */,
+				6CD426711EAEB86B000672C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD426751EAEB86B000672C7 /* PBXTargetDependency */,
+			);
+			name = iOSBeltRetakeUITests;
+			productName = iOSBeltRetakeUITests;
+			productReference = 6CD426731EAEB86B000672C7 /* iOSBeltRetakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD426491EAEB86B000672C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Patrick O'Brien";
+				TargetAttributes = {
+					6CD426501EAEB86B000672C7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						ProvisioningStyle = Automatic;
+					};
+					6CD426671EAEB86B000672C7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CD426501EAEB86B000672C7;
+					};
+					6CD426721EAEB86B000672C7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CD426501EAEB86B000672C7;
+					};
+				};
+			};
+			buildConfigurationList = 6CD4264C1EAEB86B000672C7 /* Build configuration list for PBXProject "iOSBeltRetake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CD426481EAEB86B000672C7;
+			productRefGroup = 6CD426521EAEB86B000672C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD426501EAEB86B000672C7 /* iOSBeltRetake */,
+				6CD426671EAEB86B000672C7 /* iOSBeltRetakeTests */,
+				6CD426721EAEB86B000672C7 /* iOSBeltRetakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CD4264F1EAEB86B000672C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD426621EAEB86B000672C7 /* LaunchScreen.storyboard in Resources */,
+				6CD4265F1EAEB86B000672C7 /* Assets.xcassets in Resources */,
+				6CD4265A1EAEB86B000672C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD426661EAEB86B000672C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD426711EAEB86B000672C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD4264D1EAEB86B000672C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF235E11EB15AE900098171 /* JustBeastItTableViewController.swift in Sources */,
+				6CF235DF1EB1593A00098171 /* CustomBeastCellDelegate.swift in Sources */,
+				6CD4265D1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodeld in Sources */,
+				6CD426881EB1568A000672C7 /* BeastListDelegate.swift in Sources */,
+				6CD4268A1EB156C8000672C7 /* BeastedTableViewController.swift in Sources */,
+				6CD426571EAEB86B000672C7 /* ToBeastTableViewController.swift in Sources */,
+				6CD426861EB15620000672C7 /* CustomBeastCell.swift in Sources */,
+				6CD426551EAEB86B000672C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD426641EAEB86B000672C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD4266D1EAEB86B000672C7 /* iOSBeltRetakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD4266F1EAEB86B000672C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD426781EAEB86B000672C7 /* iOSBeltRetakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CD4266A1EAEB86B000672C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CD426501EAEB86B000672C7 /* iOSBeltRetake */;
+			targetProxy = 6CD426691EAEB86B000672C7 /* PBXContainerItemProxy */;
+		};
+		6CD426751EAEB86B000672C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CD426501EAEB86B000672C7 /* iOSBeltRetake */;
+			targetProxy = 6CD426741EAEB86B000672C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CD426581EAEB86B000672C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD426591EAEB86B000672C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CD426601EAEB86B000672C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD426611EAEB86B000672C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CD4267A1EAEB86B000672C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CD4267B1EAEB86B000672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CD4267D1EAEB86B000672C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = iOSBeltRetake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Elysia.iOSBeltRetake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6CD4267E1EAEB86B000672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = iOSBeltRetake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Elysia.iOSBeltRetake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6CD426801EAEB86B000672C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = iOSBeltRetakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Elysia.iOSBeltRetakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBeltRetake.app/iOSBeltRetake";
+			};
+			name = Debug;
+		};
+		6CD426811EAEB86B000672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = iOSBeltRetakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Elysia.iOSBeltRetakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBeltRetake.app/iOSBeltRetake";
+			};
+			name = Release;
+		};
+		6CD426831EAEB86B000672C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = iOSBeltRetakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Elysia.iOSBeltRetakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSBeltRetake;
+			};
+			name = Debug;
+		};
+		6CD426841EAEB86B000672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2S3D8J8M3T;
+				INFOPLIST_FILE = iOSBeltRetakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Elysia.iOSBeltRetakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSBeltRetake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CD4264C1EAEB86B000672C7 /* Build configuration list for PBXProject "iOSBeltRetake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD4267A1EAEB86B000672C7 /* Debug */,
+				6CD4267B1EAEB86B000672C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD4267C1EAEB86B000672C7 /* Build configuration list for PBXNativeTarget "iOSBeltRetake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD4267D1EAEB86B000672C7 /* Debug */,
+				6CD4267E1EAEB86B000672C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD4267F1EAEB86B000672C7 /* Build configuration list for PBXNativeTarget "iOSBeltRetakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD426801EAEB86B000672C7 /* Debug */,
+				6CD426811EAEB86B000672C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD426821EAEB86B000672C7 /* Build configuration list for PBXNativeTarget "iOSBeltRetakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD426831EAEB86B000672C7 /* Debug */,
+				6CD426841EAEB86B000672C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CD4265B1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CD4265C1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodel */,
+			);
+			currentVersion = 6CD4265C1EAEB86B000672C7 /* iOSBeltRetake.xcdatamodel */;
+			path = iOSBeltRetake.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CD426491EAEB86B000672C7 /* Project object */;
+}
