@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C448CB81EBD293D002C7F95 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C448CB71EBD293D002C7F95 /* File.swift */; };
+		6C448CB81EBD293D002C7F95 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C448CB71EBD293D002C7F95 /* Globals.swift */; };
 		6CBF5C921EBA8D4700D388F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBF5C911EBA8D4700D388F4 /* AppDelegate.swift */; };
 		6CBF5C941EBA8D4700D388F4 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBF5C931EBA8D4700D388F4 /* QuestionsViewController.swift */; };
 		6CBF5C971EBA8D4700D388F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBF5C951EBA8D4700D388F4 /* Main.storyboard */; };
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C448CB71EBD293D002C7F95 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		6C448CB71EBD293D002C7F95 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		6CBF5C8E1EBA8D4700D388F4 /* Programming Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programming Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBF5C911EBA8D4700D388F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CBF5C931EBA8D4700D388F4 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 				6CBF5CC41EBA934C00D388F4 /* SettingsViewController.swift */,
 				6CC4F7051EBAAB9D00D39AFE /* TheDelegate.swift */,
 				6CBF5CC61EBA935900D388F4 /* StoreViewController.swift */,
-				6C448CB71EBD293D002C7F95 /* File.swift */,
+				6C448CB71EBD293D002C7F95 /* Globals.swift */,
 				6CBF5CC21EBA913800D388F4 /* LanguageSelectionCollectionViewController.swift */,
 				6CBF5CC81EBA97EF00D388F4 /* CustomLanguageCell.swift */,
 				6CBF5C9B1EBA8D4700D388F4 /* Assets.xcassets */,
@@ -290,7 +290,7 @@
 				6CBF5CC71EBA935900D388F4 /* StoreViewController.swift in Sources */,
 				6CBF5C9A1EBA8D4700D388F4 /* Programming_Trivia.xcdatamodeld in Sources */,
 				6CBF5CC51EBA934C00D388F4 /* SettingsViewController.swift in Sources */,
-				6C448CB81EBD293D002C7F95 /* File.swift in Sources */,
+				6C448CB81EBD293D002C7F95 /* Globals.swift in Sources */,
 				6CBF5CC31EBA913800D388F4 /* LanguageSelectionCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

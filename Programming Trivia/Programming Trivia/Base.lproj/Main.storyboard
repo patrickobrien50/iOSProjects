@@ -121,6 +121,7 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oDB-t8-T2U">
                                             <rect key="frame" x="0.0" y="0.0" width="166" height="163"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.90000396573604058" green="0.34795077349333753" blue="0.42201948169623749" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </imageView>
                                     </subviews>
                                 </view>

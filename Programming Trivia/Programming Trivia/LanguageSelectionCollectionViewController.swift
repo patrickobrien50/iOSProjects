@@ -56,6 +56,11 @@ class LanguageSelectionCollectionViewController: UICollectionViewController, The
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        animateCollection()
+//    }
     override func viewDidAppear(_ animated: Bool) {
         
         let x = UserDefaults.standard.object(forKey: "currentTheme")
@@ -178,35 +183,23 @@ class LanguageSelectionCollectionViewController: UICollectionViewController, The
     
     
 
-    // MARK: UICollectionViewDelegate
-
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(_ collectionView: UICollectionView, shouldShowMenuForItemAt indexPath: IndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, canPerformAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) {
-    
-    }
-    */
+//    func animateCollection(){
+//        collectionView?.reloadData()
+//        let cells = collectionView?.visibleCells
+//        
+//        let collectionViewHeight = collectionView?.bounds.size.height
+//        
+//        for cell in cells! {
+//            cell.transform = CGAffineTransform(translationX: 0, y: collectionViewHeight!)
+//        
+//        }
+//        var delayCounter = 0
+//        for cell in cells! {
+//            UIView.animate(withDuration: 1.75, delay: Double(delayCounter) * 0.05, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+//                cell.transform = CGAffineTransform.identity
+//            }, completion: nil)
+//            delayCounter += 1
+//        }
+//    }
 
 }
