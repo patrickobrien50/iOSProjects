@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBeltRetake/CustomBeastCell.swift"
+            timestampString = "520279061.221278"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "CustomBeastCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSBeltRetake.CustomBeastCell.taskLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "iOSBeltRetake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrickobrien/Desktop/iOSProjects/iOSBeltRetake/iOSBeltRetake/CustomBeastCell.swift"
+                  timestampString = "520293885.474417"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSBeltRetake.CustomBeastCell.taskLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "iOSBeltRetake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrickobrien/Desktop/iOSProjects/iOSBeltRetake/iOSBeltRetake/CustomBeastCell.swift"
+                  timestampString = "520293885.47795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSBeltRetake.CustomBeastCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; iOSBeltRetake.CustomBeastCell"
+                  moduleName = "iOSBeltRetake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrickobrien/Desktop/iOSProjects/iOSBeltRetake/iOSBeltRetake/CustomBeastCell.swift"
+                  timestampString = "520293885.480588"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSBeltRetake.CustomBeastCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;iOSBeltRetake.CustomBeastCell&gt;"
+                  moduleName = "iOSBeltRetake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrickobrien/Desktop/iOSProjects/iOSBeltRetake/iOSBeltRetake/CustomBeastCell.swift"
+                  timestampString = "520293885.483165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "163">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
